@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
 
 </head>
 <body>
@@ -47,6 +48,32 @@
          
           </nav>
     </header>
+    <div class="leftmenu">
+     <div class="ltitle"> <span class="material-symbols-rounded" >
+      inventory_2
+      </span>Αρχείο</span></div>
+      <div class="leftlinks">
+        <a href="#">Άρθρα</a>
+          <a href="#">Η σελίδα της Χορτιώτισσας</a>
+          <a href="#">Ποικίλα</a>
+          <a href="#">Κοινωνικά</a>
+          <a class="gramma" href="#"
+          ><img
+            src="https://raw.githubusercontent.com/nchorgit/tachortata-blog/master/media/svg/gramma.svg"
+            alt=""
+          />
+          Το Γράμμα της Σύνταξης</a
+        >
+        <a class="sxolia" href="#">
+          <img
+            src="https://raw.githubusercontent.com/nchorgit/tachortata-blog/master/media/svg/sxolia.svg"
+            alt=""
+          />
+
+          Γεγονότα και Σχόλια</a
+        >
+      </div>
+    </div>
 </body>
 <style>
   @font-face {
@@ -193,7 +220,76 @@ font-display: swap
   nav i {
     margin-right: 8px;
   }
+  .leftmenu {
+    display: none;
+    background: #eee;
+    max-width: 360px;
+    padding: 50px;
+    position: fixed;
+    top: 100px;
+    height: 100vh;
+  }
+.leftlinks a {
+  display: flex;
+  background: #eee;
+  padding: 10px 0;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
   
+}
+.ltitle {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  position: relative;
+  height: 30px;
+}
+a.gramma {
+    font-weight: 700;
+    color: #fff;
+    background: #2196f3;
+    padding: 0px 16px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+   
+    
+    right: 300px;
+  }
+  a.sxolia {
+    font-weight: 700;
+    color: #ffffff;
+    background: #e54a01;
+    padding: 0px 16px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+   
+   
+   
+  }
+  a:hover.gramma {
+    background: #186db1;
+  }
+  a:hover.sxolia {
+    background: #ff8500;
+  }
+  .sxolia img {
+    width: 24px;
+    margin-right: 10px;
+  }
 
+  .gramma img {
+    width: 30px;
+    margin-right: px;
+  }
 </style>
 </html>
