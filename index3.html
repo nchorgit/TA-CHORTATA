@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Τα Χορτάτα</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="logo">
+          <img
+            src="https://raw.githubusercontent.com/nchorgit/tachortata-blog/master/media/svg/lefkas3.svg"
+            alt=""
+          />
+        </div>
+        <div class="line"></div>
+        <div class="dropb">
+          <a href="#">
+            <div class="lines">
+              <div class="line1"></div>
+              <div class="line1"></div>
+              <div class="line3"></div></div
+          ></a>
+        </div>
+        <nav>
+          <a href="#">Άρθρα</a>
+          <a href="#">Η σελίδα της Χορτιώτισσας</a>
+          <a href="#">Ποικίλα</a>
+          <a href="#">Κοινωνικά</a>
+        </nav>
+        <a class="gramma" href="#"
+          ><img
+            src="https://raw.githubusercontent.com/nchorgit/tachortata-blog/master/media/svg/gramma.svg"
+            alt=""
+          />
+          Το Γράμμα της Σύνταξης</a
+        >
+        <a class="sxolia" href="#">
+          <img
+            src="https://raw.githubusercontent.com/nchorgit/tachortata-blog/master/media/svg/sxolia.svg"
+            alt=""
+          />
+
+          Γεγονότα και Σχόλια</a
+        >
+
+        <div class="search">
+          <input type="text" placeholder="Αναζήτηση..." />
+          <img
+            src="https://github.com/nchorgit/tachortata-blog/raw/master/media/svg/fakos.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="slide">
+        <div class="slide1"></div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<style>
+  @font-face {
+    font-family: "asty";
+    src: url(https://cdn.jsdelivr.net/gh/nchorgit/tachortata-blog@master/GoogleSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: asty;
+    src: url(https://cdn.jsdelivr.net/gh/nchorgit/tachortata-blog@master/GoogleSans-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  body {
+    margin: 0 auto;
+    font-family: asty, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+  }
+
+  a {
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  a:hover {
+    transition: all 0.3s;
+  }
+  header {
+    background: #333;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+  }
+  .header-inner {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .logo {
+    width: 250px;
+    display: flex;
+  }
+  nav a {
+    padding: 8px 16px;
+    color: #ccc;
+    font-weight: 700;
+    border-radius: 6px;
+  }
+  nav a:hover {
+    background: #444;
+  }
+  nav {
+    margin-left: 30px;
+    margin-right: 15px;
+  }
+  a.gramma {
+    font-weight: 700;
+    color: #fff;
+    background: #2196f3;
+    padding: 0px 16px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    position: absolute;
+    right: 300px;
+  }
+  a.sxolia {
+    font-weight: 700;
+    color: #ffffff;
+    background: #e54a01;
+    padding: 0px 16px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    margin-left: 15px;
+    position: absolute;
+    right: 75px;
+  }
+  a:hover.gramma {
+    background: #186db1;
+  }
+  a:hover.sxolia {
+    background: #ff8500;
+  }
+  .search {
+    display: flex;
+    background: #444agfsdf;
+    padding: 0x;
+    border-radius: 30px;
+    border: 0px solid #999;
+    position: absolute;
+    right: 20px;
+  }
+  input[type="text"] {
+    border: 0;
+    outline: 0;
+    font-family: inherit;
+    color: #fff;
+    font-weight: 500;
+    background: transparent;
+    display: none;
+  }
+  ::placeholder {
+    color: #fff;
+  }
+
+  .search svg {
+    height: 30px;
+  }
+
+  .sxolia img {
+    width: 24px;
+    margin-right: 10px;
+  }
+
+  .gramma img {
+    width: 30px;
+    margin-right: 12px;
+  }
+
+  .dots {
+    position: absolute;
+    right: 20px;
+    color: #ccc;
+    letter-spacing: -3px;
+  }
+  .logo svg {
+    fill: #ffffff;
+  }
+  .logo img {
+    margin-right: 5px;
+  }
+  .search img {
+    width: 28px;
+  }
+
+  .line1 {
+    width: 30px;
+    height: 3px;
+    background-color: #929191;
+    margin: 4px 0;
+  }
+
+  .line3 {
+    width: 20px;
+    height: 3px;
+    background-color: #929191;
+    margin: 4px px 0;
+  }
+
+  .line {
+    width: 1px;
+    height: 50px;
+    background: #5c5c5c;
+    margin: 0px 25px;
+  }
+</style>
+
