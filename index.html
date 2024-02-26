@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
 <body>
@@ -35,6 +36,16 @@
               alt=""
             />
           </div>
+          <nav class="navright">
+            
+            <a href="#" style="margin-right: 10px;"><span class="material-symbols-rounded" style="font-size: 40px; padding: 0;">
+              search
+              </span><span>Αναζήτηση</span></a>
+              <a href="#" style="border: 2px solid #00c4ff; height: 22px; width: 140px; text-align: center;"><span class="material-symbols-outlined" style="color:rgb(3, 196, 255)">
+                mail
+                </span><span>Επικοινωνία</span></a>
+         
+          </nav>
     </header>
 </body>
 <style>
@@ -85,6 +96,19 @@ font-display: swap
   'opsz' 44
 }
 
+.material-symbols-rounded {
+  margin-right: 8px;
+  font-size: 30px;
+  position: relative;
+  top:-1px;
+  color: #888;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 
   a {
     text-decoration: none;
@@ -108,6 +132,7 @@ font-display: swap
 .logo img {
     height: 60px;
     text-align: center;
+    margin-top: 5px;
     
 }
 .dropb {
@@ -142,6 +167,13 @@ font-display: swap
     display: flex;
     
   }
+  .navright {
+    position: absolute;
+    right:50px;
+    display: flex;
+    align-items: center;
+    
+  }
   nav a {
     padding: 10px 15px;
     font-weight: bold;
@@ -149,6 +181,8 @@ font-display: swap
     color: #555;
     display: flex;
     align-items: center;
+    border-radius: 8px;
+    justify-content: center;
     
   }
   nav a:hover {
